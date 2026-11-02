@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.youthempowerment.org.za/sitemap.xml
+
+# Sitemap location for Netlify (live site)
+Sitemap: https://funny-biscotti-5eade1.netlify.app/sitemap.xml
