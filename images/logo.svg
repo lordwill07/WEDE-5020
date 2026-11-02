@@ -1,0 +1,38 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Youth Empowerment Initiative logo</title>
+  <desc id="desc">A modern youth empowerment logo with a blue and yellow crest, upward arrow, and text reading Youth Empowerment Initiative.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="420" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D3B6D"/>
+      <stop offset="1" stop-color="#1D5CA8"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="130" y1="60" x2="300" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE27A"/>
+      <stop offset="1" stop-color="#F6C945"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="30" y="30" width="320" height="320" rx="72" fill="url(#bgGrad)"/>
+
+  <circle cx="190" cy="145" r="74" fill="url(#sunGrad)" opacity="0.96"/>
+  <path d="M190 62V25" stroke="#F9E59A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M190 265V228" stroke="#F9E59A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M106 145H69" stroke="#F9E59A" stroke-width="12" stroke-linecap="round"/>
+  <path d="M311 145H274" stroke="#F9E59A" stroke-width="12" stroke-linecap="round"/>
+
+  <path d="M115 207C141 188 168 177 190 177C212 177 239 188 265 207V252C239 233 212 224 190 224C168 224 141 233 115 252V207Z" fill="#F4F8FF" opacity="0.92"/>
+  <path d="M128 176C147 158 163 148 190 148C217 148 233 158 252 176" stroke="#F4F8FF" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="190" cy="132" r="22" fill="#F4F8FF"/>
+
+  <path d="M205 250L265 190L285 210L216 279L205 250Z" fill="#F6C945"/>
+  <path d="M250 192L289 167L302 180L260 214L250 192Z" fill="#F6C945"/>
+  <path d="M214 280L176 280L176 244L214 244L214 280Z" fill="#F6C945"/>
+
+  <g>
+    <text x="410" y="185" fill="#0D3B6D" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="0.5">Youth</text>
+    <text x="410" y="250" fill="#1D5CA8" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="0.5">Empowerment</text>
+    <text x="410" y="315" fill="#0D3B6D" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="4">INITIATIVE</text>
+    <line x1="410" y1="338" x2="905" y2="338" stroke="#F6C945" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

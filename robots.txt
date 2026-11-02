@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.youthempowerment.org.za/sitemap.xml
