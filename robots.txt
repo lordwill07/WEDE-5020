@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap location for Netlify (live site)
 Sitemap: https://funny-biscotti-5eade1.netlify.app/sitemap.xml
