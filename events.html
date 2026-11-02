@@ -1,42 +1,38 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Discover youth workshops, community activities and events hosted by the Youth Empowerment Initiative in Pretoria.">
+    <meta name="keywords" content="youth events Pretoria, community workshops, youth activities">
     <title>Youth Events and Activities | Pretoria</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="Style.css">
-    <meta name="keywords" content="youth events Pretoria, community workshops, youth activities">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="canonical" href="https://funny-biscotti-5eade1.netlify.app/events.html">
 </head>
-
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
         <div class="container navbar">
-            <a class="brand" href="index.html" aria-label="Youth Empowerment Initiative home"><span
-                    class="brand-mark">YE</span><span>Youth Empowerment Initiative</span></a>
+            <a class="brand" href="index.html" aria-label="Youth Empowerment Initiative home"><span class="brand-mark">YE</span><span>Youth Empowerment Initiative</span></a>
             <label class="nav-toggle-label" for="nav-toggle" aria-label="Open navigation menu">☰</label>
             <input class="nav-toggle" id="nav-toggle" type="checkbox" aria-label="Toggle navigation">
             <nav aria-label="Primary navigation">
                 <ul class="nav-links">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a class="active" href="about.html">About</a></li>
-                    <li><a class="active" href="programs.html">Programs</a></li>
-                    <li><a class="active" href="events.html" class="active">Events</a></li>
-                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="events.html" class="active" aria-current="page">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donate.html">Donate</a></li>
                     <li><a class="nav-cta" href="volunteer.html">Volunteer</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main id="main-content">
-
         <section class="page-hero">
             <div class="container">
                 <div class="breadcrumb"><a href="index.html">Home</a> / Events</div>
@@ -47,20 +43,23 @@
         <section class="section">
             <div class="container">
                 <div class="grid-3">
-                    <article class="card event-card"><img src="images/Screenshot 2026-09-18 011105.png"
-                            alt="Illustration for a community workshop"><span class="eyebrow">Community workshop</span>
+                    <article class="card event-card">
+                        <img src="images/digital-skills-day.jpg" alt="Community workshop digital skills" loading="lazy">
+                        <span class="eyebrow">Community workshop</span>
                         <h3>Digital Skills Day</h3>
                         <p><strong>Saturday, 12 September 2026</strong></p>
                         <p>A practical introduction to digital literacy and safe online research.</p>
                     </article>
-                    <article class="card event-card"><img src="images/download (1).jpg"
-                            alt="Illustration for a sports event"><span class="eyebrow">Youth activity</span>
+                    <article class="card event-card">
+                        <img src="images/sports-day.jpg" alt="Youth sports and teamwork activity" loading="lazy">
+                        <span class="eyebrow">Youth activity</span>
                         <h3>Sports & Teamwork Day</h3>
                         <p><strong>Saturday, 3 October 2026</strong></p>
                         <p>Games and activities focused on fitness, teamwork and leadership.</p>
                     </article>
-                    <article class="card event-card"><img src="images/Youth and Social Activism_.jpg"
-                            alt="Illustration for a mentorship event"><span class="eyebrow">Mentorship</span>
+                    <article class="card event-card">
+                        <img src="images/leaders-circle.jpg" alt="Future leaders mentorship session" loading="lazy">
+                        <span class="eyebrow">Mentorship</span>
                         <h3>Future Leaders Circle</h3>
                         <p><strong>Saturday, 7 November 2026</strong></p>
                         <p>A goal-setting session designed to help young people plan for the future.</p>
@@ -68,44 +67,48 @@
                 </div>
             </div>
         </section>
-        <section class="section section-alt">
-            <div class="container grid-2">
-                <div>
-                    <h2>Want to support an event?</h2>
-                    <p>Volunteers can help with preparation, learner support, activity facilitation and administration.
-                    </p><a class="btn btn-primary" href="volunteer.html">Volunteer</a>
-                </div>
-                <div class="notice"><strong>Event dates are examples for the student website
-                        project.</strong><br>Contact the organisation before relying on this information for real-world
-                    attendance.</div>
+
+        <section class="section section-alt" id="youth-gallery">
+          <div class="container">
+            <h2>Our Activities Gallery</h2>
+            <p>Select a photograph to view it in a larger format.</p>
+            <div class="gallery-grid gallery">
+              <button class="gallery-item" type="button" data-full="images/bannerphoto.jpg" aria-label="Enlarge: Youth initiative community activity">
+                <img src="images/bannerphoto.jpg" alt="Youth initiative community activity" loading="lazy" data-lightbox>
+              </button>
+              <button class="gallery-item" type="button" data-full="images/youth-activity-1.jpg" aria-label="Enlarge: Youth development activity">
+                <img src="images/youth-activity-1.jpg" alt="Youth development activity" loading="lazy" data-lightbox>
+              </button>
+              <button class="gallery-item" type="button" data-full="images/youth-activity-2.jpg" aria-label="Enlarge: Young people taking part in a programme">
+                <img src="images/youth-activity-2.jpg" alt="Young people taking part in a programme" loading="lazy" data-lightbox>
+              </button>
+              <button class="gallery-item" type="button" data-full="images/youth-activity-3.jpg" aria-label="Enlarge: Youth learning and collaboration">
+                <img src="images/youth-activity-3.jpg" alt="Youth learning and collaboration" loading="lazy" data-lightbox>
+              </button>
             </div>
+          </div>
         </section>
-    
-<section class="section section-alt" id="youth-gallery"><div class="container"><h2>Our Activities Gallery</h2><p>Select a photograph to view it in a larger format.</p><div class="gallery-grid"><button class="gallery-item" type="button" data-full="images/bannerphoto.jpg" aria-label="Enlarge: Youth initiative community activity"><img src="images/bannerphoto.jpg" alt="Youth initiative community activity"></button><button class="gallery-item" type="button" data-full="images/download.jpg" aria-label="Enlarge: Youth development activity"><img src="images/download.jpg" alt="Youth development activity"></button><button class="gallery-item" type="button" data-full="images/download (1).jpg" aria-label="Enlarge: Young people taking part in a programme"><img src="images/download (1).jpg" alt="Young people taking part in a programme"></button><button class="gallery-item" type="button" data-full="images/download (2).jpg" aria-label="Enlarge: Youth learning and collaboration"><img src="images/download (2).jpg" alt="Youth learning and collaboration"></button></div></div></section>
-<div class="lightbox" id="gallery-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer"><button class="lightbox-close" type="button" aria-label="Close image">×</button><button class="lightbox-prev" type="button" aria-label="Previous image">‹</button><img class="lightbox-image" src="" alt=""><button class="lightbox-next" type="button" aria-label="Next image">›</button><p class="lightbox-caption" aria-live="polite"></p></div>
-</main>
+        
+        <div class="lightbox" id="gallery-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer" style="display:none;">
+          <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image">×</button>
+          <button class="lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous image">‹</button>
+          <img class="lightbox-image" id="lightbox-img" src="" alt="">
+          <button class="lightbox-next" id="lightbox-next" type="button" aria-label="Next image">›</button>
+          <p class="lightbox-caption" id="lightbox-caption" aria-live="polite"></p>
+        </div>
+    </main>
     <footer class="site-footer">
         <div class="container footer-grid">
-            <div>
-                <h3>Youth Empowerment Initiative</h3>
-                <p>Creating a safe, supportive space where young people can learn, grow and lead.</p>
-            </div>
-            <div>
-                <h3>Explore</h3>
-                <p><a href="about.html">About us</a><br><a href="programs.html">Programs</a><br><a
-                        href="events.html">Events</a></p>
-            </div>
-            <div>
-                <h3>Get involved</h3>
-                <p><a href="volunteer.html">Volunteer</a><br><a href="donate.html">Donate</a><br><a
-                        href="contact.html">Contact</a></p>
-            </div>
+            <div><h3>Youth Empowerment Initiative</h3><p>Creating a safe, supportive space where young people can learn, grow and lead.</p></div>
+            <div><h3>Explore</h3><p><a href="about.html">About us</a><br><a href="programs.html">Programs</a><br><a href="events.html">Events</a></p></div>
+            <div><h3>Get involved</h3><p><a href="volunteer.html">Volunteer</a><br><a href="donate.html">Donate</a><br><a href="contact.html">Contact</a></p></div>
         </div>
         <div class="container footer-bottom">
             <p>&copy; 2026 Youth Empowerment Initiative. Dimpho Rampata project for WEDE5020.</p>
+            <p><a href="enquiry.html">Make an enquiry</a> | <a href="sitemap.xml">Sitemap</a></p>
         </div>
-    <div class="container footer-bottom"><p><a href="enquiry.html">Make an enquiry</a></p></div></footer>
-    <script src="script.js" defer></script>
+    </footer>
+    <script src="js/script.js" defer></script>
 </body>
-
 </html>
+    
